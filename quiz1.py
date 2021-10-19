@@ -30,4 +30,4 @@ if day_number == 5:
 if day_number == 6:
     day_of_the_week = "Friday"
 
-print(str(day) + "/" + str(month) + "/" + str(long_year) + " is a " + str(day_of_the_week))
+print(str(month) + "/" + str(day) + "/" + str(long_year) + " is a " + str(day_of_the_week))
