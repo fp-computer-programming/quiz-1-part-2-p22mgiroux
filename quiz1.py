@@ -8,8 +8,10 @@ short_year = int(long_year) % 100
 century = int(long_year) // 100
 if int(month) == 1:
     month = 13
+    short_year -= 1
 if int(month) == 2:
     month = 14
+    short_year -= 1
 
 day_number = (int(day) + ((26 * (int(month) + 1)) // 10) + int(short_year) + (int(short_year) // 4) + (int(century) // 4) + (5 * int(century))) % 7
 
